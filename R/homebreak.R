@@ -20,5 +20,7 @@ home_break <- function(fave_break, visits, fave_surfer) {
 }
 
 
-# To install package, devtools::install_github("juliaparish/stephgilmoreisnumberone")
+# To install package, devtools::install_github("allisonhorst/lasagnashark")
+
+
 
