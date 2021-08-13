@@ -1,6 +1,7 @@
 # Create a function - should have at least 3 arguments in which one is a character, one is numeric
 
 library(devtools)
+library(lasagnashark)
 
 #' Describes your home surf break and favorite surfer
 #'
