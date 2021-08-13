@@ -7,11 +7,11 @@
 home_break(fave_break, visits, fave_surfer)
 }
 \arguments{
-\item{fave_break}{a character containing the name of the users home break}
+\item{fave_break}{a character containing the name of the user's home break}
 
 \item{visits}{a number containing how often user visits home break}
 
-\item{fave_surfer}{a character containing a name of the users favorite surfer}
+\item{fave_surfer}{a character containing a name of the user's favorite surfer}
 }
 \value{
 
