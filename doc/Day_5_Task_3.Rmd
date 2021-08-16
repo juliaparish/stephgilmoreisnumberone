@@ -1,0 +1,40 @@
+---
+title: "Day_5_Activity"
+author: "Julia Parish"
+date: "8/15/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(devtools)
+```
+
+
+```{r}
+
+ozs_to_lbs <- function(ozs) {
+  lbs <- (ozs / 16)
+  return(lbs)
+}
+
+ozs_to_lbs(80)
+
+```
+
+```{r}
+
+river <- c("Nile", "Amazon", "Yangtze", "Mississippi", "Yensei")
+length <- c("4,130", "3,976", "3,917", "3,902", "3,445")
+
+
+longest_river <- function(rivers, length) {
+    print(paste("The", rivers, "is", length, "miles long."))
+}
+
+longest_river(river = "Nile", length = "4,130")
+
+```
+
